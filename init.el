@@ -138,3 +138,12 @@
 ;; Langauage-specific
 (load "setup-clojure.el")
 (load "setup-js.el")
+
+
+;;;;
+;; nikonyrh
+;;;;
+
+;; https://www.gnu.org/software/emacs/manual/html_node/efaq/Displaying-the-current-line-or-column.html
+(setq column-number-mode t)
+

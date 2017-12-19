@@ -1,0 +1,40 @@
+
+=============+=============================================
+ Command     | Description, generic
+=============+=============================================
+ C-w         | "kill" region
+ M-d         | "kill" word
+ C-k         | "kill" line
+ M-w         | copy region to kill ring
+ C-y         | "yank"
+ M-y         | drop-and-yank
+ C-/         | Undo
+-------------+---------------------------------------------
+ C-x C-f     | Open file (or a new file)
+ C-x C-s     | Save file
+ C-x C-w     | Close emacs
+-------------+---------------------------------------------
+ C-x SPC     | Select a rectangular area
+ C-t xyz ENT | Append text
+-------------+---------------------------------------------
+ C-x b       | New buffer, or switch to an other buffer
+ C-x k       | Close buffer
+-------------+---------------------------------------------
+ C-x C-+     | Fontsize++
+ C-x C--     | Fontsize--
+-------------+---------------------------------------------
+ C-x 2       | Split vertically
+ C-x 3       | Split horizontally
+ C-x o       | Next window counter-clockwise
+-------------+---------------------------------------------
+ M-:         | Evaluate ELisp
+=============+=============================================
+ Command     | Description, CIDER (cider-jack-in to get started)
+=============+=============================================
+ C-x C-e     | Eval
+ C-c C-d C-d | Documentation (q to exit)
+ C-M-b       | Move to the opening paren
+ C-M-f       | Move to the closing paren
+ C-c C-m     | macroexpand-1
+ C-c M-m     | macroexpand-all
+=============+=============================================
